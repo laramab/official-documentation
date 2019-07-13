@@ -15,194 +15,81 @@
     <link rel="stylesheet" type="text/css" href="assets/css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant|Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/media-query-screen.css">
 </head>
 <body>
-<header>
-    <button id="open"><i class="fa fa-home"></i> </button>
-    <div class="app-nav-drawer close" id="app-menu">
-        <div class="app-nav-drawer-name branch-text">LaraMAB</div>
-        <div class="app-nav-drawer-list">
-            <div class="app-nav-drawer-item active">
-                <span><i class="fa fa-home"></i></span>
-                <span>Home</span>
-            </div>
-            <div class="app-nav-drawer-item">
-                <span><i class="fa fa-video-camera"></i></span>
-                <span>Videos</span>
-            </div>
-            <div class="app-nav-drawer-item">
-                <span><i class="fa fa-paper-plane"></i></span>
-                <span>Blog</span>
-            </div>
-            <div class="app-nav-drawer-item">
-                <span><i class="fa fa-newspaper-o"></i></span>
-                <span>News</span>
-            </div>
-            <!--<div class="app-nav-drawer-item">-->
-                <!--<div style="width: 100%;">-->
-                    <!--<button class="app-btn-main app-bg-card text-default">Getting Started</button>-->
-                <!--</div>-->
-            <!--</div>-->
-        </div>
-    </div>
-</header>
-<div class="container">
-    <div class="row">
-        <div class="col-12 margin-bottom">
-            <h1>Welcome to <span class="branch-text">LaraMab</span>.com</h1>
-        </div>
-        <!--<div class="col-12">-->
-            <!--<div class="app-banner app-bg-card margin-bottom">-->
-                <!--<div class="content-left">-->
-                    <!--<h3>Answer to Your Eye Question!</h3>-->
-                    <!--<p>You wish to have khmer web development online course that specific on <a href="#" class="text-default">Laravel Framework</a>?</p>-->
-                <!--</div>-->
-                <!--<div class="content-right">-->
-                    <!--<button class="app-btn-main">Getting Started</button>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-        <div class="col-12 margin-bottom">
-            <div class="row">
-                <div class="col-12 col-md-3 col-sm-6">
-                    <div class="app-card">
-                        <h3>Episode 01</h3>
-                    </div>
+<div id="app">
+    <header>
+        <button id="open" class="app-bg-card"><i class="fa fa-home"></i></button>
+        <div class="app-nav-drawer close" id="app-menu">
+            <div class="app-nav-drawer-name branch-text">LaraMab</div>
+            <div class="app-nav-drawer-list">
+                <div class="app-nav-drawer-item active">
+                    <span><i class="fa fa-home"></i></span>
+                    <span>Home</span>
                 </div>
-                <div class="col-12 col-md-3 col-sm-6">
-                    <div class="app-card">
-                        <h3>Episode 02</h3>
-                    </div>
+                <div class="app-nav-drawer-item">
+                    <span><i class="fa fa-video-camera"></i></span>
+                    <span>Videos</span>
                 </div>
-                <div class="col-12 col-md-3 col-sm-6">
-                    <div class="app-card">
-                        <h3>Episode 03</h3>
-                    </div>
+                <div class="app-nav-drawer-item">
+                    <span><i class="fa fa-paper-plane"></i></span>
+                    <span>Blog</span>
                 </div>
-                <div class="col-12 col-md-3 col-sm-6">
-                    <div class="app-card">
-                        <h3>Episode 04</h3>
-                    </div>
+                <div class="app-nav-drawer-item">
+                    <span><i class="fa fa-newspaper-o"></i></span>
+                    <span>News</span>
+                </div>
+                <div class="app-nav-drawer-item">
+                    <span><i class="fa fa-gavel"></i></span>
+                    <span>Tools</span>
                 </div>
             </div>
         </div>
-        <div class="col-12">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="app-box">
-                        <div class="app-box-header"
-                             style="background-image: url('assets/img/bg-women-tech.jpeg')">
-                            <div class="app-box-title">
-                                <p>News, Technology, Bootcamp</p>
-                            </div>
-                        </div>
-                        <div class="app-box-body">
-                            <div class="app-box-body-date app-bg-card">April 3, 2019</div>
-                            <h3 class="block-with-text">Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.</h3>
-                            <p class="text-muted">See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
-                        </div>
-                        <div class="app-box-footer">
-                            <span class="text-uppercase">Read More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 margin-bottom margin-top">
+                <h1>Welcome to <span class="branch-text">LaraMab</span>.com</h1>
+            </div>
+            <div class="col-12">
+                <div class="app-banner app-bg-card margin-bottom">
+                    <div class="content-left">
+                        <h3>Answer to Your Eye Question!</h3>
+                        <p>You wish to have khmer web development online course</p>
                     </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="app-box">
-                        <div class="app-box-header"
-                             style="background-image: url('assets/img/bg-women-tech.jpeg')">
-                            <div class="app-box-title">
-                                <p>PHP, Laravel, Vue</p>
-                            </div>
-                        </div>
-                        <div class="app-box-body">
-                            <div class="app-box-body-date app-bg-card">April 3, 2019</div>
-                            <h3 class="block-with-text">Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.</h3>
-                            <p class="text-muted">See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
-                        </div>
-                        <div class="app-box-footer">
-                            <span class="text-uppercase">Read More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="app-box">
-                        <div class="app-box-header"
-                             style="background-image: url('assets/img/bg-women-tech.jpeg')">
-                            <div class="app-box-title">
-                                <p>Spring Framework</p>
-                            </div>
-                        </div>
-                        <div class="app-box-body">
-                            <div class="app-box-body-date app-bg-card">April 3, 2019</div>
-                            <h3 class="block-with-text">Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.</h3>
-                            <p class="text-muted">See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
-                        </div>
-                        <div class="app-box-footer">
-                            <span class="text-uppercase">Read More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
+                    <div class="content-right">
+                        <button class="app-btn-main app-bg-card">Getting Started</button>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-12">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="app-box">
-                        <div class="app-box-header"
-                             style="background-image: url('assets/img/bg-women-tech.jpeg')">
-                            <div class="app-box-title">
-                                <p>News, Technology, Bootcamp</p>
-                            </div>
-                        </div>
-                        <div class="app-box-body">
-                            <div class="app-box-body-date app-bg-card">April 3, 2019</div>
-                            <h3 class="block-with-text">Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.</h3>
-                            <p class="text-muted">See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
-                        </div>
-                        <div class="app-box-footer">
-                            <span class="text-uppercase">Read More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
-                    </div>
+            <div class="col-12 margin-bottom">
+                <div class="row">
+                    <app-box-item v-for="(title, key) in projects"
+                                  :key="key"
+                                  :title="title"/>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="app-box">
-                        <div class="app-box-header"
-                             style="background-image: url('assets/img/bg-women-tech.jpeg')">
-                            <div class="app-box-title">
-                                <p>PHP, Laravel, Vue</p>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4"
+                         v-for="(post, key) in posts">
+                        <div class="app-box">
+                            <div class="app-box-header"
+                                 :style="`background-image: url('${post.thumbnail}')`">
+                                <div class="app-box-title">
+                                    <p>News, Technology, Bootcamp</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="app-box-body">
-                            <div class="app-box-body-date app-bg-card">April 3, 2019</div>
-                            <h3 class="block-with-text">Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.</h3>
-                            <p class="text-muted">See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
-                        </div>
-                        <div class="app-box-footer">
-                            <span class="text-uppercase">Read More</span>
-                            <i class="fa fa-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                    <div class="app-box">
-                        <div class="app-box-header"
-                             style="background-image: url('assets/img/bg-women-tech.jpeg')">
-                            <div class="app-box-title">
-                                <p>Spring Framework</p>
+                            <div class="app-box-body">
+                                <div class="app-box-body-date app-bg-card">{{ getDate() }}</div>
+                                <h3 class="block-with-text">{{ post.title }}</h3>
+                                <p class="text-muted">{{ post.description }}</p>
                             </div>
-                        </div>
-                        <div class="app-box-body">
-                            <div class="app-box-body-date app-bg-card">April 3, 2019</div>
-                            <h3 class="block-with-text">Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.</h3>
-                            <p class="text-muted">See how aspects of the Bootstrap grid system work across multiple devices with a handy table.</p>
-                        </div>
-                        <div class="app-box-footer">
-                            <span class="text-uppercase">Read More</span>
-                            <i class="fa fa-arrow-right"></i>
+                            <div class="app-box-footer">
+                                <span class="text-uppercase">Read More</span>
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -210,9 +97,16 @@
         </div>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="assets/js/vue.js"></script>
 <script type="text/javascript">
     $(function () {
         $(document).on('click', '.app-nav-drawer-item', function (e) {
@@ -225,6 +119,94 @@
             e.preventDefault()
             $('#app-menu').attr('class', 'app-nav-drawer')
         })
+    })
+
+    Vue.component('app-box-item', {
+        template: `
+            <div class="col-12 col-md-3 col-sm-6">
+                <div class="app-card">
+                    <h3>{{ title }}</h3>
+                </div>
+            </div>
+        `,
+        props: {
+            title: {
+                type: String,
+                required: true
+            }
+        }
+    })
+
+    new Vue({
+        el: '#app',
+        data() {
+            return {
+                posts: [
+                    {
+                        id: 1,
+                        title: 'Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.',
+                        description: 'See how aspects of the Bootstrap grid system work across multiple devices with a handy table.',
+                        tags: ['Technology', 'Web', 'Design'],
+                        thumbnail: 'assets/img/screenshots/01.jpeg',
+                        createdAt: (new Date)
+                    },
+                    {
+                        id: 2,
+                        title: 'Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.',
+                        description: 'See how aspects of the Bootstrap grid system work across multiple devices with a handy table.',
+                        tags: ['Technology', 'Web', 'Design'],
+                        thumbnail: 'assets/img/screenshots/02.jpeg',
+                        createdAt: (new Date)
+                    },
+                    {
+                        id: 3,
+                        title: 'Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.',
+                        description: 'See how aspects of the Bootstrap grid system work across multiple devices with a handy table.',
+                        tags: ['Technology', 'Web', 'Design'],
+                        thumbnail: 'assets/img/screenshots/03.jpeg',
+                        createdAt: (new Date)
+                    },
+                    {
+                        id: 4,
+                        title: 'Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.',
+                        description: 'See how aspects of the Bootstrap grid system work across multiple devices with a handy table.',
+                        tags: ['Technology', 'Web', 'Design'],
+                        thumbnail: 'assets/img/screenshots/04.jpeg',
+                        createdAt: (new Date)
+                    },
+                    {
+                        id: 5,
+                        title: 'Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.',
+                        description: 'See how aspects of the Bootstrap grid system work across multiple devices with a handy table.',
+                        tags: ['Technology', 'Web', 'Design'],
+                        thumbnail: 'assets/img/screenshots/05.jpeg',
+                        createdAt: (new Date)
+                    },
+                    {
+                        id: 6,
+                        title: 'Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system.',
+                        description: 'See how aspects of the Bootstrap grid system work across multiple devices with a handy table.',
+                        tags: ['Technology', 'Web', 'Design'],
+                        thumbnail: 'assets/img/screenshots/06.jpeg',
+                        createdAt: (new Date)
+                    },
+                ],
+                projects: [
+                    'PHP Bootcamp',
+                    'Laravel',
+                    'Vuejs',
+                    'Nodejs'
+                ]
+            }
+        },
+        methods: {
+            getDate() {
+                const months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+                let current_datetime = new Date()
+                let formatted_date = current_datetime.getDate() + " " + months[current_datetime.getMonth()] + ", " + current_datetime.getFullYear()
+                return formatted_date;
+            }
+        }
     })
 </script>
 </body>

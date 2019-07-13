@@ -220,6 +220,9 @@ h3 {
 }
 
 #open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 25px;
     margin-top: 25px;
     width: 50px;
@@ -233,6 +236,7 @@ h3 {
     color: #ffffff;
     font-size: 1.5rem;
     z-index: 999;
+    cursor: pointer;
 }
 
 .text-default {

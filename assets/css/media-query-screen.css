@@ -1,15 +1,16 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 720px) {
     .app-banner {
         display: block;
         border-radius: 0.5rem;
     }
 }
 
+@media screen and (max-width: 400px) {
+
+}
+
 @media screen and (min-width: 401px) and (max-width: 720px) {
-    .app-banner {
-        display: block;
-        border-radius: 0.5rem;
-    }
+
 }
 
 @media screen and (min-width: 721px) and (max-width: 1280px) {

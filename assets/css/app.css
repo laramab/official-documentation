@@ -32,13 +32,13 @@ h3 {
 }
 
 .app-nav-drawer.close {
-    /*transition: all 0.3s;*/
     margin-left: -230px;
 }
 
 .app-nav-drawer-list {
     display: inline-block;
     width: 100%;
+    padding: 0px 10px;
 }
 
 .app-nav-drawer-item {
@@ -51,7 +51,10 @@ h3 {
 }
 
 .app-nav-drawer-item.active {
-    background: #dddddd;
+    background: rgb(126, 125, 230);
+    background: linear-gradient(90deg, rgba(126, 125, 230, 1) 0%, rgba(64, 152, 255, 1) 100%);
+    border-radius: 9999px;
+    color: #ffffff;
 }
 
 .app-nav-drawer-item span {
@@ -73,6 +76,9 @@ h3 {
     font-family: 'Lobster', sans-serif;
     font-weight: 800;
     font-size: 34px;
+    border-bottom: 0.1rem solid #f6f7ff;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .app-card {

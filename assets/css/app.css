@@ -51,8 +51,7 @@ h3 {
 }
 
 .app-nav-drawer-item.active {
-    background: rgb(126, 125, 230);
-    background: linear-gradient(90deg, rgba(126, 125, 230, 1) 0%, rgba(64, 152, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(126, 125, 230, 1) 0%, rgba(64, 152, 255, 0) 100%);
     border-radius: 9999px;
     color: #ffffff;
 }
